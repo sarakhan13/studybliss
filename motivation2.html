@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon Title -->
+    <link rel="icon" href="image/loader-img.gif" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- BootStrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Style file css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Study Bliss</title>
+  </head>
+
+  <body>
+    <!-- Start Navbar -->
+    <div class="header">
+      <header class="py-3 bg-white">
+        <div
+          class="container d-flex justify-content-between gap-5 align-items-center"
+        >
+          <a
+            href="#"
+            class="d-flex gap-2 align-items-center text-decoration-none"
+            ><i class="text-success fa-solid fa-book fa-2x"></i>
+            <span class="text-dark fw-bold fs-1">Study Bliss</span></a
+          >
+
+          <div class="search-form">
+            <form class="w-100 me-3">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+          </div>
+          <div class="links d-flex gap-3">
+            <a href="#">
+              <div id="search-btn" class="fas fa-2x text-dark fa-search"></div>
+            </a>
+            <a href="#"><i class="fa-solid fa-heart fa-2x text-dark"></i></a>
+            <a href="#"
+              ><i class="fa-solid fa-cart-shopping fa-2x text-dark"></i
+            ></a>
+            <a href="#" id="login-btn"
+              ><i class="fa-solid fa-user fa-2x text-dark"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div class="header2">
+        <nav class="nav justify-content-center gap-2">
+          <a href="home.html">home</a>
+          <a href="home.html#about">About</a>
+          <a href="home.html#genres">Genres</a>
+          <a href="home.html#testimonial">Testimonials</a>
+          <a href="ContactUs.html">contact us</a>
+        </nav>
+      </div>
+    </div>
+
+   
+
+
+    <!-- Book Read and Discussion Board -->
+    <section class="bookdiscussionBg" id="home">
+      <div class="row">
+        <div class="content">
+            <div class="book-container">
+                <div class="book-img">
+                    <a href="https://www.amazon.com/Mountain-You-Transforming-Self-Sabotage-Self-Mastery/dp/1949759229/ref=zg_bs_4744_sccl_11/143-4061554-7213435?psc=1">
+                        <img
+                          src="https://m.media-amazon.com/images/I/41N62t+ANTL._SY344_BO1,204,203,200_.jpg"
+                          alt="Mot-Book 1"
+                          class="bookImg"
+                        />
+                      </a>
+
+                </div>
+                  <div class="book-intro">
+                    <h1>The Mountain Is You: </h1>
+                    <h1>Transforming Self-Sabotage Into Self-Mastery</h1>
+                    <h2>Author: Brianna Wiest</h2>
+                    <p>Published on: June 1, 2020</p>
+                    <a href="https://www.amazon.com/Mountain-You-Transforming-Self-Sabotage-Self-Mastery/dp/1949759229/ref=zg_bs_4744_sccl_11/143-4061554-7213435?psc=1"><button type="button" class="btn btn-outline-dark bookButton">Read Book</button></a>
+                    <a href="#discussion-board"><button href="discussion-board" type="button" class="btn btn-outline-success bookButton">Discussion Board</button></a>
+                </div>
+
+            </div>
+        
+        </div>
+    </section>
+
+    <section>
+        <div id="discussion-board">
+            
+    <h2>Write A Post</h2>
+            <form id="my-form">
+              
+              <input type="text" id="name" placeholder="Your name" name="name" required><br><br>
+              
+              <textarea id="comment" name="comment" placeholder= "Your comment..." rows="4" cols="50" required></textarea><br><br>
+              <button type="submit" class="btn btn-success post-button">Post</button>
+            </form>
+          
+            <h2>Comments:</h2>
+            <div id="pastDiscussion">
+
+              <div class="postedComment">
+                
+                <div class="commented">
+                  <h3>Mary K.</h3>
+                  <p>I absolutely loved 'The Mountain is You'! Brianna Wiest has a way of breaking down complex issues into simple and actionable steps. This book helped me recognize and overcome my self-sabotaging behaviors, and has given me the tools to achieve self-mastery. I highly recommend this book to anyone who wants to make positive changes in their life.</p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+               
+                <div class="commented">
+                  <h3>John P.</h3>
+                  <p>As someone who has struggled with self-sabotage for years, 'The Mountain is You' was a game-changer for me. Brianna Wiest's writing is clear, concise, and easy to understand. The exercises in the book were incredibly helpful in identifying my self-sabotaging behaviors and learning how to overcome them. I would definitely recommend this book to anyone looking to improve their mental and emotional well-being.</p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+            
+                <div class="commented">
+                  <h3>Susan G. </h3>
+                  <p>I've read a lot of self-help books, but 'The Mountain is You' stands out as one of the best. Brianna Wiest's insights into self-sabotage are profound, and the exercises she provides are practical and effective. This book has helped me gain a deeper understanding of myself and has given me the tools to overcome my self-sabotaging behaviors. Highly recommended!</p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+                
+                <div class="commented">
+                  <h3>Tom H. </h3>
+                  <p>I was skeptical at first, but 'The Mountain is You' blew me away. Brianna Wiest's writing is engaging, insightful, and relatable. The exercises in the book were challenging but rewarding, and I feel like I've gained a new level of self-awareness as a result. If you're struggling with self-sabotage, this book is a must-read.</p>
+                </div>
+              </div>
+              
+            </div>
+            
+
+        </div>
+       
+            
+            
+        
+    </section>
+
+    <!-- footer section-->
+    <section class="footer">
+      
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+        <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
+        <a href="mailto:group5@gmail.com"
+          ><i class="fas fa-envelope"></i>send email</a
+        >
+       
+      </div>
+    </div>
+    <div class="share">
+      <a
+        href="https://www.facebook.com/group5/"
+        target="_blank"
+        class="fab fa-facebook-f"
+      ></a>
+      <a
+        href="https://twitter.com/group5"
+        target="_blank"
+        class="fab fa-twitter"
+      ></a>
+      <a
+        href="https://www.instagram.com/group5/"
+        target="_blank"
+        class="fab fa-instagram"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/group5/"
+        target="_blank"
+        class="fab fa-linkedin"
+      ></a>
+      
+    </div>
+    <div class="credit">
+      created by <span>group 5</span> | all rights reserved!
+    </div>
+    <script src="JavaScript/main1.js"></script>
+  </section>
+
+  
+</body>
+</html>
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon Title -->
+    <link rel="icon" href="image/loader-img.gif" />
+   
+    <!-- BootStrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Style file css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Study Bliss</title>
+  </head>
+
+  <body>
+    <!-- Start Navbar -->
+    <div class="header">
+      <header class="py-3 bg-white">
+        <div
+          class="container d-flex justify-content-between gap-5 align-items-center"
+        >
+          <a
+            href="#"
+            class="d-flex gap-2 align-items-center text-decoration-none"
+            ><i class="text-success fa-solid fa-book fa-2x"></i>
+            <span class="text-dark fw-bold fs-1">Study Bliss</span></a
+          >
+
+          <div class="search-form">
+            <form class="w-100 me-3">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+          </div>
+          <div class="links d-flex gap-3">
+            <a href="#">
+              <div id="search-btn" class="fas fa-2x text-dark fa-search"></div>
+            </a>
+            <a href="#"><i class="fa-solid fa-heart fa-2x text-dark"></i></a>
+            <a href="#"
+              ><i class="fa-solid fa-cart-shopping fa-2x text-dark"></i
+            ></a>
+            <a href="#" id="login-btn"
+              ><i class="fa-solid fa-user fa-2x text-dark"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div class="header2">
+        <nav class="nav justify-content-center gap-2">
+          <a href="home.html">home</a>
+          <a href="home.html#about">About</a>
+          <a href="home.html#genres">Genres</a>
+          <a href="home.html#testimonial">Testimonials</a>
+          <a href="ContactUs.html">contact us</a>
+        </nav>
+      </div>
+    </div>
+
+    
+
+
+    <!-- Book Read and Discussion Board -->
+    <section class="bookdiscussionBg" id="home">
+      <div class="row">
+        <div class="content">
+            <div class="book-container">
+                <div class="book-img">
+                    <a href="https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794">
+                        <img
+                          src="https://m.media-amazon.com/images/I/51tl4a3VY8L._SX328_BO1,204,203,200_.jpg"
+                          alt="Mot-Book 1"
+                          class="bookImg"
+                        />
+                      </a>
+
+                </div>
+                  <div class="book-intro">
+                    <h1>A Game of Thrones (A Song of Ice and Fire, Book 1)</h1>
+                    <h2>Author: George R.R. Martin</h2>
+                    <p>Published on: </p>
+                    <a href="https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794"><button type="button" class="btn btn-outline-dark bookButton">Read Book</button></a>
+                    <a href="#discussion-board"><button href="discussion-board" type="button" class="btn btn-outline-success bookButton">Discussion Board</button></a>
+                </div>
+
+            </div>
+        
+        </div>
+    </section>
+
+    <section>
+        <div id="discussion-board">
+            
+    <h2>Write A Post</h2>
+            <form id="my-form">
+              
+              <input type="text" id="name" placeholder="Your name" name="name" required><br><br>
+              
+              <textarea id="comment" name="comment" placeholder= "Your comment..." rows="4" cols="50" required></textarea><br><br>
+              <button type="submit" class="btn btn-success post-button">Post</button>
+            </form>
+          
+            <h2>Comments:</h2>
+            <div id="pastDiscussion">
+
+              <div class="postedComment">
+                
+                <div class="commented">
+                  <h3>Rachel</h3>
+                  <p>If you're looking for a book that's full of intrigue, action, and complex characters, look no further than A Game of Thrones. George R.R. Martin has created a world that is both familiar and yet entirely unique, with a cast of characters that are so well-drawn that you feel like you know them personally. The plot is full of twists and turns, and the stakes are always high. I couldn't put this book down and I'm already itching to read the next one in the series. Highly recommended!
+
+                  </p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+               
+                <div class="commented">
+                  <h3>Michael</h3>
+                  <p>A Game of Thrones is an epic fantasy that's not for the faint of heart. George R.R. Martin doesn't shy away from the darker aspects of human nature, and the world he has created is full of danger and betrayal. That being said, the book is a masterpiece of storytelling, with a richly detailed world and characters that are both flawed and compelling. If you're looking for a book that will keep you on the edge of your seat, look no further than A Game of Thrones.
+
+                  </p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+            
+                <div class="commented">
+                  <h3>Karen</h3>
+                  <p>A Game of Thrones is a book that demands your attention. George R.R. Martin has created a complex and multi-layered world, with a large cast of characters and a plot that is full of political intrigue and action. What I loved most about the book is the way Martin is able to balance the big picture with the smaller character moments. You feel like you're part of the story and invested in the fates of the characters. This book is a must-read for anyone who loves epic fantasy.</p>
+                </div>
+              </div>
+
+              <div class="postedComment">
+                
+                <div class="commented">
+                  <h3>Alex</h3>
+                  <p>I recently read A Game of Thrones and I was blown away by how immersive and detailed the world-building was. George R.R. Martin has created a world that is so vast and complex, with a history and mythology that feels real. The characters are equally well-drawn, and the way Martin weaves their individual stories together is nothing short of masterful. The plot is full of twists and turns, and there were moments where I was genuinely surprised by the direction the story took. I highly recommend this book to anyone who loves epic fantasy or just great storytelling in general.</p>
+                </div>
+              </div>
+              
+            </div>
+            
+
+        </div>
+       
+            
+            
+        
+    </section>
+
+    <!-- footer section-->
+    <section class="footer">
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+          <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
+          <a href="mailto:group5@gmail.com"
+            ><i class="fas fa-envelope"></i>send email</a
+          >
+          
+        </div>
+      </div>
+      <div class="share">
+        <a
+          href="https://www.facebook.com/group5/"
+          target="_blank"
+          class="fab fa-facebook-f"
+        ></a>
+        <a
+          href="https://twitter.com/group5"
+          target="_blank"
+          class="fab fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/group5/"
+          target="_blank"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/group5/"
+          target="_blank"
+          class="fab fa-linkedin"
+        ></a>
+        
+      </div>
+      <div class="credit">
+        created by <span>group 5</span> | all rights reserved!
+      </div>
+    </section>
+
+
+    
+    <script src="JavaScript/main1.js"></script>
+   
+  </body>
+</html>

@@ -1,0 +1,380 @@
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Swiper -->
+<link rel="stylesheet"
+href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<!-- BootStrap link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+crossorigin="anonymous" />
+<!-- font awesome cdn link -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+/>
+<!-- Style file css -->
+<link rel="stylesheet" href="CSS/style.css" />
+<title>Study Bliss</title>
+</head>
+<body>
+<!-- Start Navbar -->
+<div class="header">
+<header class="py-3 bg-white">
+<div class="container d-flex justify-content-between gap-5 align-items-center">
+<a href="#home" class="d-flex gap-2 align-items-center text-decoration-none"><i class="fa-solid fa-book fa-2xl"></i>
+<span class="text-dark fw-bold fs-1">Study Bliss</span></a>
+
+<div class="search-form">
+<form class="w-100 me-3">
+<input type="search" class="form-control" placeholder="Search..."
+aria-label="Search" />
+</form>
+</div>
+<div class="links d-flex gap-3">
+<a href="#">
+<div id="search-btn" class="fas fa-2x text-dark fa-search"></div>
+</a>
+<a href="#"><i class="fa-solid fa-heart fa-2x text-dark"></i></a>
+<a href="#"><i class="fa-solid fa-cart-shopping fa-2x text-dark"></i></a>
+<a href="#" id="login-btn"><i class="fa-solid fa-user fa-2x text-dark"></i></a>
+</div>
+</div>
+</header>
+<div class="header2">
+<nav class="nav justify-content-center gap-2">
+<a href="#home">home</a>
+<a href="#about">About</a>
+<a href="#genres">Genres</a>
+<a href="#testimonial">Testimonials</a>
+<a href="ContactUs.html">Contact Us</a>
+
+</nav>
+</div>
+</div>
+<!-- Bottom navBar -->
+<nav class="bottom-navbar">
+<a href="#home" class="fas fa-home"></a>
+<a href="#about" class="fas fa-list"></a>
+
+
+</nav>
+<!-- Login Form -->
+<div class="login-form-container">
+<div id="close-btn-login" class="fa-solid fa-xmark"></div>
+<form action="">
+<h3>sign in</h3>
+<span>username</span>
+<input type="email" class="box-input" name="input-email"
+id="input-email" placeholder="Enter Your Email" />
+<span>password</span>
+<input type="password" class="box-input" name="input-pass"
+id="input-pass" placeholder="Enter Password" />
+
+<div class="checkbox">
+<input type="checkbox" name="input-check" id="remember-me" />
+<label for="remember-me">remember me</label>
+</div>
+
+<input type="submit" value="sign in" class="Btn" />
+<p>forget password ? <a href="#">click here</a></p>
+<p>don't have an account ? <a href="#">create one</a></p>
+</form>
+</div>
+
+<!-- Home Div -->
+<section class="home div1" id="home">
+<div class="rowdiv1">
+<div class="contentdiv1">
+<h3 class="div1heading">Gift of Reading </h3>
+<p class="div1para">Introducing Our Brand New Gift of Reading App
+    Study Bliss that suggest you reading material according to your mood.</p>
+<a href="#genres" class="Btn btn btn-outline-info">Get Started</a>
+</div>
+</div>
+</section>
+
+<!-- About section -->
+
+<section id="about">
+    <h1 class="heading"><span>About</span></h1>
+    <div class="aboutdiv">
+        <div class="aboutcol1">
+            <p>Study Bliss is designed to help students remain engaged in activities that enhance their intellectual abilities. It promotes the idea of finding contentment in reading and rejuvenate student’s mental state and is very convenient to access non-academic reading material from anywhere, anytime. 
+            </p>
+            <ul class="aboutlist">
+                <li><i class="fa-solid fa-check abouticon"></i>Access Ebooks</li>
+                <li><i class="fa-solid fa-check abouticon"></i>Pick Reads by Mood</li>
+                <li><i class="fa-solid fa-check abouticon"></i>Engage in Discussion Boards</li>
+                <li><i class="fa-solid fa-check abouticon"></i>Find Like Minded People Online</li>
+                <li></li>
+            </ul>
+            <ul></ul>
+        </div>
+        <div class="aboutcol2">
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Mood Selector -->
+
+<section class="Our pick Section" id="genres">
+<h1 class="heading"><span>Pick By Mood</span></h1>
+<div class="flip-container">
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/320007/pexels-photo-320007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 1">
+                 
+             </div>
+             <div class="flip-card-back">
+                 <a href="motivation.html"><p>Motivation</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/7709017/pexels-photo-7709017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 2">
+                 
+             </div>
+             <div class="flip-card-back">
+                 <a href="scifi.html"><p>Sci-Fi</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/3025562/pexels-photo-3025562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 3">
+                 
+             </div>
+             <div class="flip-card-back">
+                 <a href="spiritual.html"><p>Spiritual</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/3813373/pexels-photo-3813373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 4">
+             </div>
+             <div class="flip-card-back">
+                 <a href="fantasyfiction.html"><p>Fantasy Fiction</p></a>
+             </div>
+         </div>
+    </div>
+</div>
+<div class="flip-container">
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/4577191/pexels-photo-4577191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 1">
+               
+             </div>
+             <div class="flip-card-back">
+                 <a href="calming.html"><p>Calming</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/3836671/pexels-photo-3836671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 2">
+                 
+             </div>
+             <div class="flip-card-back">
+                 <a href="mystery.html"><p>Mystery</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 3">
+               
+             </div>
+             <div class="flip-card-back">
+                 <a href="romance.html"><p>Romance</p></a>
+             </div>
+         </div>
+    </div>
+    <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="https://images.pexels.com/photos/5325597/pexels-photo-5325597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="flipImg" alt="Image 4">
+                
+             </div>
+             <div class="flip-card-back">
+                 <a href="humour.html"><p>Humour</p></a>
+             </div>
+         </div>
+    </div>
+</div>
+</section>
+
+<!-- Testimonials section -->
+<section class="testimonial" id="testimonial">
+<h1 class="heading"><span>Testimonial</span></h1>
+<div class="swiper testimonial-slider">
+<div class="swiper-wrapper">
+<div class="swiper-slide box">
+<img src="image/pic-1.png" alt="pic""width="200" height="200"> 
+<h3> Maya </h3>
+<p> Great if you’re willing to give up some time!
+
+This app is one of my main apps! I personally read consistently
+everyday and I LOVE to log my books online. I personally hated logging
+my books in elementary school on paper. But this—has so many
+exceptions. For the people looking to see what the heck this app even
+does: you can add friends to see books they’re reading and if you want
+can compete.You can ofc log books! You cannot read books, this is not an online
+library! But it seriously has EVERY 👏🏻 BOOK 👏🏻 EVER 👏🏻 TO 👏🏻
+BE 👏🏻 WRITTEN.</p>
+<div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    
+    
+<div class="swiper-slide box">
+<img src="image/pic-2.png"alt="pic" width="200" height="200"> 
+<h3>Rafeef</h3>
+<p>this book app was actually really good. throughout this bookapp I explore
+many books and also learns new things and experiences stuff all by
+herself. one of the best things is about how the app goes back and
+forth  and take you different pages and makes you wanna read more and more.
+ The smoothness in navigation  is amazing.
+</p>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+</div>
+<div class="swiper-slide box">
+<img src="image/pic-3.png" alt="pic"width="200" height="200"> 
+<h3>Adam</h3>
+<p>This was an interesting reading book app, as noted by previous reviewers. I
+will read it again and share with family and friends. The sections of book app
+is amazing In" discussion board we discuss everything
+matters.  youth,is  striving, to read  and wanted good apps.
+
+</p>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+</div>
+<div class="swiper-slide box">
+<img src="image/pic-4.png" alt="pic""width="200" height="200"> 
+<h3>Tess</h3>
+<p>Awesome story on this app. A great reading material on this app.  an incredible app and
+ book lists are amazing. App shares a lot of books choices. </p>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+</div>
+<div class="swiper-slide box">
+<img src="image/pic-5.png" alt="pic" width="200" height="200"> 
+<h3>Theo</h3>
+<p>I'm writing this review after reading it for the third time. One of
+the main reasons why I like this book so much is that I find the
+amazing books on this app. I can see now that this book has so many different mixed
+views. But for those of you who haven't read the book, nothing should
+stop you from trying out this book! It is an excellent reading app in my
+opinion.</p>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+</div>
+<div class="swiper-slide box">
+<img src="image/pic-6.png" alt="pic"width="200" height="200"> ">
+<h3>Zara </h3>
+<p>The book app has large amount of reading material and gives
+ a very unique book list.</p>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- footer section-->
+<section class="footer">
+<div class="box-container">
+<div class="box">
+<h3>locations</h3>
+<a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>Pakistan</a>
+<a href="#"><i class="fas fa-map-marker-alt"></i>saudi arabia</a>
+</div>
+
+<div class="box">
+<h3>Quick Links</h3>
+<a href="#home"><i class="fas fa-arrow-right"></i>home</a>
+<a href="#about"><i class="fas fa-arrow-right"></i>About</a>
+
+</div>
+<div class="box">
+<h3>Contact Info</h3>
+<a href="#"><i class="fas fa-phone"></i>+703-446-3880</a>
+<a href="#"><i class="fas fa-phone"></i>+111-111-3111</a>
+<a href="mailto:group5@gmail.com"><i class="fas fa-envelope"></i>send email</a>
+
+</div>
+</div>
+<div class="share">
+    <p>Follow us on social media.
+    </p>
+    <a href="https://www.facebook.com/group5/" target="_blank" class="fab
+    fa-facebook-f"></a>
+    <a href="https://twitter.com/group5" target="_blank" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/group5/" target="_blank" class="fab
+    fa-instagram"></a>
+    <a href="https://www.linkedin.com/in/group5/" target="_blank"
+    class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit">created by <span>group 5</span> | all rights reserved!</div>
+    </section>
+<!-- Swiper -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous">
+</script>
+<script src="JavaScript/main.js"></script>
+
+
+</body>
+
+</html>
