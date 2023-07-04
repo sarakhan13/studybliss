@@ -1,6 +1,6 @@
 STUDY BLISS 
 
-Find the completed website deployed at https://study-bliss.netlify.app/
+Find the completed website deployed at https://studybliss.netlify.app/
 
 Study Bliss is a website application designed to help students remain engaged in activities that enhance their intellectual abilities. University library websites provide multiple resources such as finding course materials, borrowing books, attending workshops , writing centers, and much more. However, there is still scope for improvement here. The mentioned activities are individual and academic-centric. Study Bliss promotes the idea of finding contentment in reading and rejuvenate student’s mental state. The platform also improves student engagement and is very convenient to access non-academic reading material online. 
 
